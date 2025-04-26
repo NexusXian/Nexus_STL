@@ -262,8 +262,6 @@ public:
     return os;
   }
 
-  // ====== 新增：比较运算符 ======
-
   // 相等
   friend bool operator==(const vector &lhs, const vector &rhs) {
     if (lhs.size() != rhs.size())
